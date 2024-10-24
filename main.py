@@ -16,6 +16,6 @@ def get_data2_route():
     print("Received a request to /api/data2")
     return get_data2()  
 
-if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000, debug=True)
-    get_data2_route()
+# if __name__ == '__main__':
+#     app.run(host='0.0.0.0', port=5000, debug=True)
+#     get_data2_route()
